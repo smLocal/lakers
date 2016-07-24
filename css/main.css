@@ -2,9 +2,63 @@
   background-image: url(http://i.cdn.turner.com/drp/nba/lakers/sites/default/files/new_backgroundpattern.jpg);
 }
 
-.topAd {
+.container {
+  padding-top: 10%;
   text-align: center;
-  /*background-size: cover;*/
+}
+
+.element-invisible {
+  color: transparent;
+}
+
+#logo {
+
+}
+
+.catcher {
+  padding-top: 8%;
+  color: rgb(255, 172, 42);
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+  font-size: 2em;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+#top {
+  width: 50%;
+  height: auto;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  background-size: 150px;
+}
+
+.topAd {
+/*  width: 20%;
+  height: auto;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  background-size: 40%;*/
+}
+
+.bottomAd {
+  width: 30%;
+  height: auto;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 150px;
+  background-size: 150px;
+}
+
+#large {
+  width: 90%;
+  height: auto;
+  border: solid 2px;
+  border-color: black;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  background-size: 150px;
 }
 
 #test {

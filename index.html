@@ -2,17 +2,40 @@
 <html>
 <head>
   <title></title>
+  <!-- <script type="text/javascript" src="./js/videoPlayerScout.js"></script> -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="./css/main.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body class="body">
-  <div class="navbar-brand-wrapper">
-    <a tabindex="1" href="/lakers/" id="logo" class="navbar-brand" title="Home" rel="home">
-      <img src="http://i.cdn.turner.com/drp/nba/lakers/sites/default/files/styles/logo/public/lakers_logo_500_0.png?itok=uVLl-BPW" width="" height="" alt="Site Logo" title="Site Logo" />                                    <span class="element-invisible">Los Angeles Lakers</span>
+  <div class="navbar-brand-wrapper .col-xs-11 .col-sm-11 .col-md-9 .lg-col-9">
+    <a tabindex="1" href="http://www.nba.com/lakers/" id="logo" class="navbar-brand" title="Home" rel="home">
+      <img src="http://i.cdn.turner.com/drp/nba/lakers/sites/default/files/styles/logo/public/lakers_logo_500_0.png?itok=uVLl-BPW" width="" height="" alt="Site Logo" title="Site Logo" id="logo"/>
+      <span class="element-invisible">Los Angeles Lakers</span>
     </a>
   </div>
+ <!--  <nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">
+        <img alt="Brand" src="http://i.cdn.turner.com/drp/nba/lakers/sites/default/files/styles/logo/public/lakers_logo_500_0.png?itok=uVLl-BPW">
+      </a>
+    </div>
+  </div>
+</nav> -->
   <div class="container">
-    <div class="topAd">
-      <img src="./assets/ad_toyota_728x90.jpg" alt="">
+    <h1 class="catcher .col-md-9 .col-lg-9 .visible-xs-block hidden-xs">Spoiler Alert: Russell took the game in his hands with 26 points</h1>
+    <div class="topAd .col-xs-11 .col-sm-11 .col-md-9 .lg-col-9">
+      <img src="./assets/ad_toyota_728x90.jpg" alt="" id="top">
+    </div>
+
+
+    <div class="content">
+      <a href="http://www.nba.com/lakers//video/games/lakers/2016/07/11/1521600030-gsw-lal-recap.nba">
+        <img src="./assets/lakers-russell.jpg" alt="" id="large">
+      </a>
     </div>
     <div class="content">
       <img src="./assets/lakers-brown.jpg" alt="" id="test">
@@ -21,6 +44,31 @@
       <img id="content" src="./assets/ad_wingstop_300x250.jpg" alt="">
     </div>
   </div>
+  <div class="panel panel-default">
+    <div class="panel-body">Panel Content</div>
+    <div class="panel-footer">Panel Footer</div>
+  </div>
 
 </body>
 </html>
+
+<!-- failed embed attempts -->
+  <!-- <div id="video-player-wrapper" class="video-player-wrapper"> -->
+   <!--  <div id="nbaVidePlayerFull" class="nba-video-player-full">
+      <span id="fw_nba_skin_slot" class="_fwph" style="display:none">...</span>
+        <div id="nbaVideoPlayer" class="nba-video-player">
+          <object id="cvp_player" name="cvp_player"
+          width="100%" height="100%">
+
+          </object> -->
+        <!-- </div> -->
+  <!-- <object id="cvp_player" name="cvp_player" width="100%" height="100%" type="application/x-shockwave-flash" data="http://www.nba.com/lakers///video/games/lakers/2016/07/11/1521600030-gsw-lal-recap.nba"><param name="quality" value="high"><param name="bgcolor" value="#000000"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param name="wmode" value="transparent"><param name="flashvars" value="player=undefined&amp;context=nba_teamoriginals&amp;site=nba&amp;profile=27&amp;autostart=on&amp;domId=cvp_player&amp;cvpSessionToken=hElcIFCOgeTBfWbAGi2RX2sbk"></object> -->
+
+
+
+  <!-- <script class="_nbaVideoPlayerScout"
+  data-team="lakers" data-videoId="/video/games/lakers/2016/07/11/1521600030-gsw-lal-recap.nba"
+  data-width="768" data-height="732"
+  src="http://i.cdn.turner.com/nba/nba/scout/team/cvp/videoPlayerScout.js"></script> -->
+  <!-- <iframe src="http://i.cdn.turner.com/nba/nba/scout/team/cvp/videoPlayerScout.nba"></iframe> -->
+<!-- end embed -->
