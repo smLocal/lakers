@@ -2,6 +2,33 @@
   background-image: url(http://i.cdn.turner.com/drp/nba/lakers/sites/default/files/new_backgroundpattern.jpg);
 }
 
-.content {
+.topAd {
+  text-align: center;
+  /*background-size: cover;*/
+}
 
+#test {
+   width: 300px;
+  height: auto;
+  background-image: url(firefox_logo.png);
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  background-size: 150px;
+}
+
+/*#content {
+
+ background-size: cover;
+}*/
+
+.content {
+  /*background-size: cover;
+  background-color: green;*/
+  /*width: 800px;
+  height: 800px;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  background-size: 150px;*/
 }
