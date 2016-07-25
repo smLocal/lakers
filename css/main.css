@@ -54,20 +54,22 @@
   background-size: 150px;
 }
 
-#large {
-  width: 90%;
-  height: auto;
-  border: solid 2px;
-  border-color: black;
-  text-shadow: white 0px 0px 2px;
-  font-size: 16px;
- /* position: fixed;
-  bottom:0;
-    position: fixed;
-  bottom:0;
-  margin-right: 5%;
-  margin-left: 5%;*/
-  background-size: 150px;
+@media (min-width: 790px) {
+  #large {
+    max-width: 90%;
+    height: auto;
+    border: solid 2px;
+    border-color: black;
+    text-shadow: white 0px 0px 2px;
+    font-size: 16px;
+   /* position: fixed;
+    bottom:0;
+      position: fixed;
+    bottom:0;
+    margin-right: 5%;
+    margin-left: 5%;*/
+    background-size: 150px;
+  }
 }
 
 .float {
