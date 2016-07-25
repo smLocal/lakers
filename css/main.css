@@ -44,7 +44,14 @@
 
 .topAd {
   padding-top: 8%;
+
 }
+/*@media (min-width: 790px) {
+  .topAd {
+    padding-top: 8%;
+    position: fixed;
+  }
+}*/
 
 .bottomAd {
   width: 30%;
@@ -81,6 +88,7 @@
     border-color: black;
     text-shadow: white 0px 0px 2px;
     font-size: 16px;
+    display: inline-block;
     position: absolute;
     bottom:0;
     right: 0;
