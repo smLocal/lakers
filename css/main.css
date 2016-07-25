@@ -44,7 +44,12 @@
 
 .topAd {
   padding-top: 8%;
-
+   display: inline-block;
+    position: absolute;
+    bottom:0;
+    right: 0;
+    left: 0;
+    top: 50%;
 }
 /*@media (min-width: 790px) {
   .topAd {
@@ -70,12 +75,6 @@
     border-color: black;
     text-shadow: white 0px 0px 2px;
     font-size: 16px;
-   /* position: fixed;
-    bottom:0;
-      position: fixed;
-    bottom:0;
-    margin-right: 5%;
-    margin-left: 5%;*/
     background-size: 150px;
   }
 }
@@ -83,7 +82,7 @@
 @media not all and (min-width: 790px) {
   #large {
     max-width: 100%;
-    /*min-height: 50%;*/
+    height: auto;
     border: solid 2px;
     border-color: black;
     text-shadow: white 0px 0px 2px;
@@ -93,7 +92,6 @@
     bottom:0;
     right: 0;
     left: 0;
-    top: 50;
     background-size: 150px;
   }
 }
