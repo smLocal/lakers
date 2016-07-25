@@ -5,4 +5,4 @@
 
 
 ##SS on Galaxy s5
-![s6](lakers/ss/ss galaxys5.png)
+![s6](./ss/ss galaxys5.png)
