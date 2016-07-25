@@ -8,6 +8,7 @@
   min-height: 800px;
   text-align: center;
   position: relative;
+  margin-bottom: -330px;
 }
 
 .element-invisible {
@@ -22,15 +23,28 @@
   color: rgb(255, 172, 42);
   font-size: .9em;
 }
+@media all and (min-width: 858px)  {
+  .catcher {
+    padding-top: 20%;
+    color: rgb(255, 172, 42);
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+    font-size: 2vw;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
+}
 
-.catcher {
-  padding-top: 20%;
-  color: rgb(255, 172, 42);
-  text-transform: uppercase;
-  text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
-  font-size: 2em;
-  font-family: Helvetica;
-  font-weight: bold;
+@media not all and (min-width: 858px)  {
+  .catcher {
+    padding-top: 20%;
+    color: rgb(255, 172, 42);
+    text-transform: uppercase;
+    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+    font-size: 1em;
+    font-family: Helvetica;
+    font-weight: bold;
+  }
 }
 
 #top {
@@ -39,37 +53,36 @@
   border: solid 2px;
   text-shadow: white 0px 0px 2px;
   font-size: 16px;
-  background-size: 150px;
+  /*background-size: 150px;*/
 }
 
 .topAd {
-  /*padding-top: 8%;*/
+      max-width: 100%;
+    height: auto;
+    border-color: black;
+    text-shadow: white 0px 0px 2px;
+    font-size: 16px;
+    display: inline-block;
+    position: relative;
+    bottom:50%;
+    right: 0;
+    left: 0;
 }
-/*@media (min-width: 858px) {
-  .topAd {
-    padding-top: 8%;
-    position: fixed;
-  }
-}*/
 
 .bottomAd {
   width: 30%;
   height: auto;
   border: solid 2px;
-  text-shadow: white 0px 0px 2px;
-  font-size: 150px;
   background-size: 150px;
 }
 
-@media all and (min-width: 858px) {
+/*@media all and (min-width: 858px) {
   #large {
     max-width: 90%;
     height: auto;
     border: solid 2px;
     border-color: black;
-    text-shadow: white 0px 0px 2px;
-    font-size: 16px;
-    background-size: 150px;
+    background-size: 90%;
   }
 }
 
@@ -79,8 +92,6 @@
     height: auto;
     border: solid 2px;
     border-color: black;
-    text-shadow: white 0px 0px 2px;
-    font-size: 16px;
     display: inline-block;
     position: absolute;
     bottom:0;
@@ -88,6 +99,13 @@
     left: 0;
     background-size: 150px;
   }
+}*/
+
+#large {
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  background-size: 150px;
 }
 .float {
   float: right;
@@ -104,7 +122,15 @@
 .panel-footer {
   position:absolute;
   width:100%;
+  color: rgb(255, 172, 42);
+  font-size: .9vw;
   padding-bottom: 0;
+  padding-top: 0;
+}
+
+.clearfooter {
+  height: 330px;
+  clear: both;
 }
 
 #test {
