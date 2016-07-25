@@ -43,9 +43,9 @@
 }
 
 .topAd {
-  padding-top: 8%;
+  /*padding-top: 8%;*/
 }
-/*@media (min-width: 790px) {
+/*@media (min-width: 858px) {
   .topAd {
     padding-top: 8%;
     position: fixed;
@@ -61,7 +61,7 @@
   background-size: 150px;
 }
 
-@media all and (min-width: 790px) {
+@media all and (min-width: 858px) {
   #large {
     max-width: 90%;
     height: auto;
@@ -73,7 +73,7 @@
   }
 }
 
-@media not all and (min-width: 790px) {
+@media not all and (min-width: 858px) {
   #large {
     max-width: 100%;
     height: auto;
