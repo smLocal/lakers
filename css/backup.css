@@ -1,0 +1,96 @@
+.body {
+  height: 100%;
+  background-image: url(http://i.cdn.turner.com/drp/nba/lakers/sites/default/files/new_backgroundpattern.jpg);
+}
+
+#container {
+  height: 100%;
+  min-height: 800px;
+  text-align: center;
+}
+
+.element-invisible {
+  color: transparent;
+}
+
+.grey {
+  background-color: #333;
+}
+
+.links {
+  color: rgb(255, 172, 42);
+  font-size: .9em;
+}
+
+.catcher {
+  padding-top: 20%;
+  color: rgb(255, 172, 42);
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+  font-size: 2em;
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+#top {
+  width: 50%;
+  height: auto;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  background-size: 150px;
+}
+
+.topAd {
+  padding-top: 8%;
+}
+
+.bottomAd {
+  width: 30%;
+  height: auto;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 150px;
+  background-size: 150px;
+}
+
+#large {
+  width: 90%;
+  height: auto;
+  border: solid 2px;
+  border-color: black;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+/*  position: fixed;
+  bottom:0;
+  padding-right: 5%;
+  padding-left: 5%;*/
+  background-size: 150px;
+}
+
+.float {
+  float: right;
+  width: 25%;
+  height: auto;
+  background-size: 150px;
+}
+
+.panel {
+  position:relative;
+  padding-bottom: 0;
+}
+
+.panel-footer {
+  position:absolute;
+  width:100%;
+  padding-bottom: 0;
+}
+
+#test {
+  width: 30%;
+  height: auto;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  background-size: 150px;
+}
