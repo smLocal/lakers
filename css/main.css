@@ -4,11 +4,11 @@
 }
 
 #container {
-  height: 100%;
-  min-height: 800px;
+  min-height: 100%;
+  /*min-height: 800px;*/
   text-align: center;
-  position: relative;
   margin-bottom: -330px;
+  position: relative;
 }
 
 .element-invisible {
@@ -48,7 +48,7 @@
 }
 
 #top {
-  width: 50%;
+  width: 450px;
   height: auto;
   border: solid 2px;
   text-shadow: white 0px 0px 2px;
@@ -120,17 +120,19 @@
 }
 
 .panel-footer {
-  position:absolute;
-  width:100%;
+  position:relative;
+  height: 330px;
+  /*width:100%; */
   color: rgb(255, 172, 42);
   font-size: .9vw;
-  padding-bottom: 0;
-  padding-top: 0;
+/*  padding-bottom: 0;
+  padding-top: 0;*/
 }
 
 .clearfooter {
   height: 330px;
   clear: both;
+  padding: 0;
 }
 
 #test {
