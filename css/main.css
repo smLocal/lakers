@@ -3,6 +3,25 @@
   background-image: url(http://i.cdn.turner.com/drp/nba/lakers/sites/default/files/new_backgroundpattern.jpg);
 }
 
+/*logo 3 sizes */
+@media all and (min-width: 858px) {
+  .logo {
+    max-width: 100%;
+  }
+}
+
+@media not all and (min-width: 858px){
+  .logo {
+    max-width: 75%;
+  }
+}
+
+@media not all and (min-width: 500px){
+  .logo {
+    max-width: 50%;
+  }
+}
+
 #container {
   min-height: 100%;
   /*min-height: 800px;*/
