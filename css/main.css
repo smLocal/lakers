@@ -42,8 +42,10 @@
   color: rgb(255, 172, 42);
   font-size: .9em;
 }
-@media all and (min-width: 858px)  {
+/*@media (min-width: 600px)  {*/
   .catcher {
+    /*overflow-wrap: normal;
+overflow-wrap: break-word;*/
     padding-top: 20%;
     color: rgb(255, 172, 42);
     text-transform: uppercase;
@@ -52,22 +54,22 @@
     font-family: Helvetica;
     font-weight: bold;
   }
-}
+/*}*/
 
-@media not all and (min-width: 858px)  {
+/*@media not all and (min-width: 600px)  {
   .catcher {
     padding-top: 20%;
     color: rgb(255, 172, 42);
     text-transform: uppercase;
     text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
-    font-size: 1em;
+    font-size: 1vw;
     font-family: Helvetica;
     font-weight: bold;
   }
-}
+}*/
 
 #top {
-  width: 450px;
+  width: 90%;
   height: auto;
   border: solid 2px;
   text-shadow: white 0px 0px 2px;
