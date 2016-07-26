@@ -3,7 +3,7 @@
   background-image: url(http://i.cdn.turner.com/drp/nba/lakers/sites/default/files/new_backgroundpattern.jpg);
 }
 
-/*logo 3 sizes */
+/* multi-size logo */
 @media all and (min-width: 858px) {
   .logo {
     max-width: 100%;
@@ -24,7 +24,6 @@
 
 #container {
   min-height: 100%;
-  /*min-height: 800px;*/
   text-align: center;
   margin-bottom: -330px;
   position: relative;
@@ -34,39 +33,20 @@
   color: transparent;
 }
 
-.grey {
-  background-color: #333;
-}
-
 .links {
   color: rgb(255, 172, 42);
-  font-size: .9em;
+  font-size: 1.8vw;
 }
-/*@media (min-width: 600px)  {*/
-  .catcher {
-    /*overflow-wrap: normal;
-overflow-wrap: break-word;*/
-    padding-top: 20%;
-    color: rgb(255, 172, 42);
-    text-transform: uppercase;
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
-    font-size: 2vw;
-    font-family: Helvetica;
-    font-weight: bold;
-  }
-/*}*/
 
-/*@media not all and (min-width: 600px)  {
-  .catcher {
-    padding-top: 20%;
-    color: rgb(255, 172, 42);
-    text-transform: uppercase;
-    text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
-    font-size: 1vw;
-    font-family: Helvetica;
-    font-weight: bold;
-  }
-}*/
+.catcher {
+  padding-top: 20%;
+  color: rgb(255, 172, 42);
+  text-transform: uppercase;
+  text-shadow: -1px -1px 1px #000, 1px 1px 1px #ccc;
+  font-size: 2.2vw;
+  font-family: Helvetica;
+  font-weight: bold;
+}
 
 #top {
   width: 90%;
@@ -74,60 +54,41 @@ overflow-wrap: break-word;*/
   border: solid 2px;
   text-shadow: white 0px 0px 2px;
   font-size: 16px;
-  /*background-size: 150px;*/
 }
 
 .topAd {
-      max-width: 100%;
-    height: auto;
-    border-color: black;
-    text-shadow: white 0px 0px 2px;
-    font-size: 16px;
-    display: inline-block;
-    position: relative;
-    bottom:50%;
-    right: 0;
-    left: 0;
+  max-width: 100%;
+  height: auto;
+  border-color: black;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+  display: inline-block;
+  position: relative;
+  bottom:50%;
+  right: 0;
+  left: 0;
 }
 
 .bottomAd {
   width: 30%;
   height: auto;
   border: solid 2px;
-  background-size: 150px;
 }
-
-/*@media all and (min-width: 858px) {
-  #large {
-    max-width: 90%;
-    height: auto;
-    border: solid 2px;
-    border-color: black;
-    background-size: 90%;
-  }
-}
-
-@media not all and (min-width: 858px) {
-  #large {
-    max-width: 100%;
-    height: auto;
-    border: solid 2px;
-    border-color: black;
-    display: inline-block;
-    position: absolute;
-    bottom:0;
-    right: 0;
-    left: 0;
-    background-size: 150px;
-  }
-}*/
 
 #large {
   width: 100%;
   height: auto;
   bottom: 0;
-  background-size: 150px;
 }
+
+#brown {
+  width: 30%;
+  height: auto;
+  border: solid 2px;
+  text-shadow: white 0px 0px 2px;
+  font-size: 16px;
+}
+
 .float {
   float: right;
   width: 25%;
@@ -141,26 +102,14 @@ overflow-wrap: break-word;*/
 }
 
 .panel-footer {
+  background-color: #333;
   position:relative;
   height: 330px;
-  /*width:100%; */
   color: rgb(255, 172, 42);
-  font-size: .9vw;
-/*  padding-bottom: 0;
-  padding-top: 0;*/
 }
 
 .clearfooter {
   height: 330px;
   clear: both;
   padding: 0;
-}
-
-#test {
-  width: 30%;
-  height: auto;
-  border: solid 2px;
-  text-shadow: white 0px 0px 2px;
-  font-size: 16px;
-  background-size: 150px;
 }
